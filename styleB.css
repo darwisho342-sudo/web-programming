@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Tahoma, sans-serif;
+    position: relative;
+}
+
+/* A–E horizontally in top-left */
+.container {
+    white-space: nowrap; /* Prevent wrapping */
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 40px;
+    padding-left: 10px; /* Space between letter and left border */
+    padding-top: 10px;
+    cursor: default;
+}
+
+/* Hover effect */
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+/* Final box (F) at bottom-right */
+.final {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
